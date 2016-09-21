@@ -1,0 +1,15 @@
+FileOpenedAction 1474457377611 BowlingGame.java 623 4 1 0
+FileOpenedAction 1474457720517 Frame.java 671 6 7 0
+RefactoringAction 1474457943864 BowlingGame.java ADD boolean ga FIELD
+RefactoringAction 1474457947983 BowlingGame.java RENAME ga=>boolean gameRunning FIELD
+RefactoringAction 1474458022847 BowlingGame.java REMOVE gameRunning FIELD
+FileOpenedAction 1474458150784 TestBowling.java 165 1 1 0
+RefactoringAction 1474458163139 TestBowling.java RENAME test()=><initializer /1> null
+RefactoringAction 1474458172421 TestBowling.java RENAME <initializer /1>=>void a() METHOD
+RefactoringAction 1474458175510 TestBowling.java RENAME a()=>void addFrame() METHOD
+RefactoringAction 1474458188895 TestBowling.java RENAME addFrame()=>void addFrame_() METHOD
+RefactoringAction 1474458191469 TestBowling.java RENAME addFrame_()=>void addFrame_5_() METHOD
+RefactoringAction 1474458192498 TestBowling.java RENAME addFrame_5_()=>void addFrame_5_5() METHOD
+RefactoringAction 1474458281871 BowlingGame.java ADD List<Frame> returnFrame FIELD
+RefactoringAction 1474458283946 BowlingGame.java RENAME returnFrame=>List<Frame> returnFrame() METHOD
+EditAction 1474458562095 BowlingGame.java 689 5 3 0
