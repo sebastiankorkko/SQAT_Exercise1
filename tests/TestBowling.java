@@ -118,9 +118,9 @@ public class TestBowling {
 	@Test
 	public void checkIfStrikeSpareCalculatesCorrectly() throws BowlingException {
 		initGame();
-		game.getFrames().get(0).modifyFrame(1, 9);
+		game.getFrames().get(0).modifyFrame(10, 0);
 		game.getFrames().get(1).modifyFrame(4, 6);
-		assertEquals("102", game.score(), 102);		
+		assertEquals("102", game.score(), 103);		
 	}
 	
 
