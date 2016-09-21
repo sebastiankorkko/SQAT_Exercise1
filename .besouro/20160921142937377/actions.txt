@@ -59,3 +59,23 @@ RefactoringAction 1474460106811 TestBowling.java RENAME addElevenFramesExpectErr
 RefactoringAction 1474460414377 TestBowling.java ADD import org.junit.BeforeClass IMPORT
 RefactoringAction 1474460426950 TestBowling.java ADD void initGame() METHOD
 EditAction 1474460585088 BowlingGame.java 859 5 2 0
+CompilationAction 1474460586819 BowlingGame.java
+UnitTestCaseAction 1474460591268 TestBowling.java FAIL
+UnitTestSessionAction 1474460591268 TestBowling.java FAIL
+UnitTestCaseAction 1474460618509 TestBowling.java OK
+UnitTestSessionAction 1474460618509 TestBowling.java OK
+RefactoringAction 1474460657571 TestBowling.java ADD void Check FIELD
+RefactoringAction 1474460660676 TestBowling.java RENAME Check=>void CheckGameScore FIELD
+RefactoringAction 1474460661721 TestBowling.java RENAME CheckGameScore=>void CheckGameScore() METHOD
+UnitTestCaseAction 1474460791034 TestBowling.java FAIL
+UnitTestSessionAction 1474460791034 TestBowling.java FAIL
+RefactoringAction 1474460861296 TestBowling.java ADD static void BowlingGame() METHOD
+RefactoringAction 1474460863387 TestBowling.java REMOVE BowlingGame() METHOD
+RefactoringAction 1474460868550 TestBowling.java ADD BowlingGame game FIELD
+RefactoringAction 1474460890250 TestBowling.java ADD void BowlingGame FIELD
+RefactoringAction 1474460943820 TestBowling.java REMOVE BowlingGame FIELD
+UnitTestCaseAction 1474460972761 TestBowling.java FAIL
+UnitTestSessionAction 1474460972761 TestBowling.java FAIL
+UnitTestCaseAction 1474460991219 TestBowling.java FAIL
+UnitTestSessionAction 1474460991219 TestBowling.java FAIL
+EditAction 1474461024463 BowlingGame.java 859 5 2 0

@@ -1,10 +1,29 @@
 import static org.junit.Assert.*;
 
+import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 public class TestBowling {
+	
+	private static BowlingGame game;
+	
+	@BeforeClass
+	public static void initGame() throws BowlingException {
+		game = new BowlingGame();
+		game.addFrame(new Frame(1,5));
+		game.addFrame(new Frame(3,6));
+		game.addFrame(new Frame(7,2));
+		game.addFrame(new Frame(3,6));
+		game.addFrame(new Frame(4,4));
+		game.addFrame(new Frame(5,3));
+		game.addFrame(new Frame(3,3));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(8,1));
+		game.addFrame(new Frame(2,6));
+	}
+	
 	
 	@Rule
 	public ExpectedException expectedEx = ExpectedException.none();
@@ -53,13 +72,19 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void addElevenFrames() throws Exception {
+	public void addElevenFramesThrowError() throws Exception {
 		expectedEx.expect(BowlingException.class);
 		expectedEx.expectMessage("Game already has 10 frames");
 		BowlingGame game = new BowlingGame();
 		for(int i = 0; i < 11; i++) {
 			game.addFrame(new Frame(3,3));
 		}
+	}
+	
+	@Test
+	public void CheckGameScore() throws BowlingException {
+		initGame();
+		assertEquals("81", game.score(), 81);
 	}
 
 
