@@ -27,8 +27,10 @@ public class BowlingGame {
 	
 	// Returns the game score
 	public int score(){
-		//to be implemented: should return game score 
-		return 0;
+		int score = 0;
+		for(int i = 0; i < 10; i++;)
+			score =+ frames.get(i).score();
+		return score;
 	}
 	
 	public List<Frame> getFrames() {

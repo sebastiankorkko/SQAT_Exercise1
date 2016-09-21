@@ -52,3 +52,10 @@ EditAction 1474460045606 TestBowling.java 1659 4 18 3
 UnitTestCaseAction 1474460047793 TestBowling.java FAIL
 UnitTestSessionAction 1474460047793 TestBowling.java FAIL
 EditAction 1474460090802 TestBowling.java 1659 4 18 3
+UnitTestCaseAction 1474460092927 TestBowling.java OK
+UnitTestSessionAction 1474460092927 TestBowling.java OK
+RefactoringAction 1474460102162 TestBowling.java RENAME addElevenFrames()=>void addElevenFramesExpectError() METHOD
+RefactoringAction 1474460106811 TestBowling.java RENAME addElevenFramesExpectError()=>void addElevenFramesThrowError() METHOD
+RefactoringAction 1474460414377 TestBowling.java ADD import org.junit.BeforeClass IMPORT
+RefactoringAction 1474460426950 TestBowling.java ADD void initGame() METHOD
+EditAction 1474460585088 BowlingGame.java 859 5 2 0
