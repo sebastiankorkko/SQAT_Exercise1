@@ -111,3 +111,4 @@ UnitTestSessionAction 1474461885405 Rerun TestBowling.checkIfStrikeCalculatesCor
 RefactoringAction 1474462087472 TestBowling.java ADD void checkIfStrikeCalculatesCorrectly()/2 METHOD
 RefactoringAction 1474462091606 TestBowling.java RENAME checkIfStrikeCalculatesCorrectly()/2=>void checkIfSpareCalculatesCorrectly() METHOD
 EditAction 1474462199121 BowlingGame.java 1141 5 5 0
+EditAction 1474462200775 TestBowling.java 2911 9 40 7
