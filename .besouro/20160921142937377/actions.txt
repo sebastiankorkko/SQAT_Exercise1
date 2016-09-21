@@ -45,3 +45,6 @@ RefactoringAction 1474459917727 TestBowling.java ADD ExpectedException expectedE
 RefactoringAction 1474459922751 TestBowling.java ADD import org.junit.rules.ExpectedException IMPORT
 RefactoringAction 1474459936186 TestBowling.java ADD import org.junit.Rule IMPORT
 EditAction 1474460041191 BowlingGame.java 819 5 3 0
+CompilationAction 1474460043983 BowlingGame.java
+CompilationAction 1474460043983 TestBowling.java
+EditAction 1474460043999 BowlingException.java 123 1 1 0
