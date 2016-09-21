@@ -26,3 +26,4 @@ RefactoringAction 1474458768297 BowlingGame.java RENAME returnFrame()=>List<Fram
 EditAction 1474458808405 BowlingGame.java 687 5 3 0
 CompilationAction 1474458810246 TestBowling.java
 EditAction 1474458810464 Frame.java 681 6 7 0
+EditAction 1474458812165 TestBowling.java 588 2 9 2
