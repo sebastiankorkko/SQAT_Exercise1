@@ -27,8 +27,7 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		return ((this.getFirstThrow() != 10) && (this.score() == 10));		
 	}
 	
 	public void modifyFrame(int first, int second) {

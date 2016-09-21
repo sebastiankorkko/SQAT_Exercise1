@@ -121,3 +121,8 @@ EditAction 1474462550238 BowlingGame.java 1180 5 5 0
 UnitTestCaseAction 1474462552534 TestBowling.java FAIL
 UnitTestSessionAction 1474462552550 TestBowling.java FAIL
 EditAction 1474462860507 BowlingGame.java 1184 5 5 0
+UnitTestCaseAction 1474462863271 TestBowling.java OK
+UnitTestSessionAction 1474462863271 TestBowling.java OK
+RefactoringAction 1474462959523 TestBowling.java ADD void checkIfStrike()/2 METHOD
+RefactoringAction 1474462963657 TestBowling.java RENAME checkIfStrike()/2=>void checkIfSpare() METHOD
+EditAction 1474462979444 Frame.java 818 7 9 0

@@ -18,3 +18,16 @@
 1474461863686 test-addition 1 42 true
 1474461863687 test-addition 1 42 true
 1474461885405 regression 1 0 true
+1474462863271 test-first 3 775 true
+1474462863272 test-first 3 775 true
+1474462863273 test-first 3 775 true
+1474462863274 test-first 3 775 true
+1474462863275 test-first 3 775 true
+1474462863276 test-first 3 775 true
+1474462863277 test-last 1 775 false
+1474462863278 test-first 3 775 true
+1474462863279 test-first 3 775 true
+1474462863280 test-first 3 775 true
+1474462863281 test-first 3 775 true
+1474462863282 test-first 3 775 true
+1474462863283 test-first 3 775 true
