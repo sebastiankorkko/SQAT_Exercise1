@@ -22,7 +22,6 @@ public class TestBowling {
 		game.addFrame(new Frame(4,5));
 		game.addFrame(new Frame(8,1));
 		game.addFrame(new Frame(2,6));
-		game.setBonus(7, 0);
 	}
 	
 	
@@ -142,7 +141,22 @@ public class TestBowling {
 	public void checkIfLastSpareBonusCalculatesCorrectly() throws BowlingException {
 		initGame();
 		game.getFrames().get(9).modifyFrame(2, 8);
+		game.setBonus(7, 0);
 		assertEquals("90", game.score(), 90);		
+	}
+	
+	public void checkIfLastStrikeBonusCalculatesCorrectly() throws BowlingException {
+		initGame();
+		game.getFrames().get(9).modifyFrame(10, 0);
+		game.setBonus(7, 2);
+		assertEquals("92", game.score(), 92);		
+	}
+	
+	public void checkIfLastSpareBonusStrikeCalculatesCorrectly() throws BowlingException {
+		initGame();
+		game.getFrames().get(9).modifyFrame(2, 8);
+		game.setBonus(10, 0);
+		assertEquals("93", game.score(), 93);		
 	}
 	
 
