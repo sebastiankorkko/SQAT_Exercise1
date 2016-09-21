@@ -90,3 +90,9 @@ CompilationAction 1474461068882 BowlingGame.java
 UnitTestCaseAction 1474461070211 TestBowling.java FAIL
 UnitTestSessionAction 1474461070211 TestBowling.java FAIL
 EditAction 1474461221595 BowlingGame.java 865 5 5 0
+UnitTestCaseAction 1474461223532 TestBowling.java OK
+UnitTestSessionAction 1474461223532 TestBowling.java OK
+RefactoringAction 1474461576857 Frame.java ADD void modifyFrame() METHOD
+RefactoringAction 1474461582005 Frame.java RENAME modifyFrame()=>void modifyFrame(int, int) METHOD
+RefactoringAction 1474461619196 TestBowling.java ADD void checkIfStrike() METHOD
+EditAction 1474461800297 BowlingGame.java 1001 5 5 0
