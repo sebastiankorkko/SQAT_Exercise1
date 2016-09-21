@@ -124,7 +124,7 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void checkIfStrikeStrikeSpareCalculatesCorrectly() throws BowlingException {
+	public void checkIfStrikeStrikeCalculatesCorrectly() throws BowlingException {
 		initGame();
 		game.getFrames().get(0).modifyFrame(10, 0);
 		game.getFrames().get(1).modifyFrame(10, 0);
