@@ -131,6 +131,7 @@ public class TestBowling {
 		assertEquals("112", game.score(), 112);		
 	}
 	
+	@Test
 	public void checkIfSpareSpareCalculatesCorrectly() throws BowlingException {
 		initGame();
 		game.getFrames().get(0).modifyFrame(8, 2);
@@ -138,6 +139,7 @@ public class TestBowling {
 		assertEquals("98", game.score(), 98);		
 	}
 	
+	@Test
 	public void checkIfLastSpareBonusCalculatesCorrectly() throws BowlingException {
 		initGame();
 		game.getFrames().get(9).modifyFrame(2, 8);
@@ -145,6 +147,7 @@ public class TestBowling {
 		assertEquals("90", game.score(), 90);		
 	}
 	
+	@Test
 	public void checkIfLastStrikeBonusCalculatesCorrectly() throws BowlingException {
 		initGame();
 		game.getFrames().get(9).modifyFrame(10, 0);
@@ -152,6 +155,7 @@ public class TestBowling {
 		assertEquals("92", game.score(), 92);		
 	}
 	
+	@Test
 	public void checkIfLastSpareBonusStrikeCalculatesCorrectly() throws BowlingException {
 		initGame();
 		game.getFrames().get(9).modifyFrame(2, 8);
@@ -159,6 +163,7 @@ public class TestBowling {
 		assertEquals("93", game.score(), 93);		
 	}
 	
+	@Test
 	public void checkPerfectScore_300() throws BowlingException {
 		initGame();
 		for(int i = 0; i < 10; i++) {

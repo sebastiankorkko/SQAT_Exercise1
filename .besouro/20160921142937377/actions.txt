@@ -179,3 +179,6 @@ RefactoringAction 1474464353386 TestBowling.java ADD void checkPerfectScore FIEL
 RefactoringAction 1474464354946 TestBowling.java RENAME checkPerfectScore=>void checkPerfectScore_300 FIELD
 RefactoringAction 1474464355991 TestBowling.java RENAME checkPerfectScore_300=>void checkPerfectScore_300() METHOD
 EditAction 1474464444568 TestBowling.java 4747 17 71 15
+UnitTestCaseAction 1474464446443 TestBowling.java OK
+UnitTestSessionAction 1474464446443 TestBowling.java OK
+EditAction 1474464473197 TestBowling.java 4787 17 71 15
