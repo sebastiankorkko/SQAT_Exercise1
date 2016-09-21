@@ -34,3 +34,4 @@ RefactoringAction 1474458957825 TestBowling.java RENAME add=>void addTen FIELD
 RefactoringAction 1474458967092 TestBowling.java RENAME addTen=>void addTenFrames FIELD
 RefactoringAction 1474458969166 TestBowling.java RENAME addTenFrames=>void addTenFrames() METHOD
 EditAction 1474459157787 BowlingGame.java 724 5 3 0
+EditAction 1474459159597 TestBowling.java 884 3 14 3

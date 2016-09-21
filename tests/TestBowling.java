@@ -20,5 +20,16 @@ public class TestBowling {
 		int score = game.getFrames().get(0).score();
 		assertEquals("6", score, 6);
 	}
+	
+	@Test
+	public void addTenFrames(){
+		BowlingGame game = new BowlingGame();
+		for(int i = 0; i < 10; i++) {
+			game.addFrame(new Frame(3,3));
+		}
+		int first = game.getFrames().get(0).score();
+		int last = game.getFrames().get(9).score();
+		assertEquals("12", first + last, 12);	
+	}
 
 }
