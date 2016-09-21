@@ -32,7 +32,11 @@ public class BowlingGame {
 			if(frames.get(i).getFirstThrow() != 10) {
 				score = score + frames.get(i).score();
 			} else {
-				score = score + frames.get(i).score() + frames.get(i+1).score();
+				if(frames.get(i).score() == 10) {
+					score = score + frames.get(i).score() + frames.get(i+1).getFirstThrow();
+				} else {
+					score = score + frames.get(i).score() + frames.get(i+1).score();
+				}
 			}
 		return score;
 	}
