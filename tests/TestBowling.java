@@ -159,6 +159,15 @@ public class TestBowling {
 		assertEquals("93", game.score(), 93);		
 	}
 	
+	public void checkPerfectScore_300() throws BowlingException {
+		initGame();
+		for(int i = 0; i < 10; i++) {
+			game.getFrames().get(i).modifyFrame(10, 0);
+		}
+		game.setBonus(10, 0);
+		assertEquals("300", game.score(), 300);
+	}
+	
 
 
 }

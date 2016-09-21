@@ -173,3 +173,9 @@ UnitTestSessionAction 1474464239954 TestBowling.java OK
 RefactoringAction 1474464307019 TestBowling.java ADD void checkIfLastSpareBonusCalculatesCorrectly()/2 METHOD
 RefactoringAction 1474464312182 TestBowling.java RENAME checkIfLastSpareBonusCalculatesCorrectly()/2=>void checkIfLastSpareBonusStrikeCalculatesCorrectly() METHOD
 EditAction 1474464321246 TestBowling.java 4507 16 67 14
+UnitTestCaseAction 1474464323480 TestBowling.java OK
+UnitTestSessionAction 1474464323480 TestBowling.java OK
+RefactoringAction 1474464353386 TestBowling.java ADD void checkPerfectScore FIELD
+RefactoringAction 1474464354946 TestBowling.java RENAME checkPerfectScore=>void checkPerfectScore_300 FIELD
+RefactoringAction 1474464355991 TestBowling.java RENAME checkPerfectScore_300=>void checkPerfectScore_300() METHOD
+EditAction 1474464444568 TestBowling.java 4747 17 71 15
