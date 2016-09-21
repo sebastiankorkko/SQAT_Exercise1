@@ -33,3 +33,7 @@
 1474462863283 test-first 3 775 true
 1474462982910 test-first 4 23 true
 1474462982911 test-last 1 23 false
+1474463144720 test-addition 2 105 true
+1474463144721 test-addition 1 105 true
+1474463144722 test-addition 2 105 true
+1474463144723 test-addition 1 105 true

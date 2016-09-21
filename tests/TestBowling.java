@@ -123,6 +123,14 @@ public class TestBowling {
 		assertEquals("102", game.score(), 103);		
 	}
 	
+	@Test
+	public void checkIfStrikeStrikeSpareCalculatesCorrectly() throws BowlingException {
+		initGame();
+		game.getFrames().get(0).modifyFrame(10, 0);
+		game.getFrames().get(1).modifyFrame(10, 0);
+		assertEquals("112", game.score(), 112);		
+	}
+	
 
 
 }
