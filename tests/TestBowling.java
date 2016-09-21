@@ -57,7 +57,7 @@ public class TestBowling {
 		expectedEx.expect(BowlingException.class);
 		expectedEx.expectMessage("Game already has 10 frames");
 		BowlingGame game = new BowlingGame();
-		for(int i = 0; i < 10; i++) {
+		for(int i = 0; i < 11; i++) {
 			game.addFrame(new Frame(3,3));
 		}
 	}
