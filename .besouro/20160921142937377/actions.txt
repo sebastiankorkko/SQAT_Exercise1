@@ -14,3 +14,13 @@ RefactoringAction 1474458281871 BowlingGame.java ADD List<Frame> returnFrame FIE
 RefactoringAction 1474458283946 BowlingGame.java RENAME returnFrame=>List<Frame> returnFrame() METHOD
 EditAction 1474458562095 BowlingGame.java 689 5 3 0
 EditAction 1474458564170 TestBowling.java 381 1 5 1
+UnitTestCaseAction 1474458566326 TestBowling.java OK
+UnitTestSessionAction 1474458566326 TestBowling.java OK
+RefactoringAction 1474458679018 TestBowling.java ADD void addFrame_5_5()/2 METHOD
+RefactoringAction 1474458688815 TestBowling.java RENAME addFrame_5_5()/2=>void g() METHOD
+RefactoringAction 1474458694494 TestBowling.java RENAME g()=>void calculateScoreOf() METHOD
+RefactoringAction 1474458696569 TestBowling.java RENAME calculateScoreOf()=>void calculateScoreOfAFrame() METHOD
+RefactoringAction 1474458699673 TestBowling.java RENAME calculateScoreOfAFrame()=>void calculateScoreOfAFrame3() METHOD
+RefactoringAction 1474458702278 TestBowling.java RENAME calculateScoreOfAFrame3()=>void calculateScoreOfAFrame_3_ FIELD
+RefactoringAction 1474458768297 BowlingGame.java RENAME returnFrame()=>List<Frame> getFrames() METHOD
+EditAction 1474458808405 BowlingGame.java 687 5 3 0

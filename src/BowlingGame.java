@@ -27,7 +27,7 @@ public class BowlingGame {
 		return 0;
 	}
 	
-	public List<Frame> returnFrame() {
+	public List<Frame> getFrames() {
 		return this.frames;
 	}
 }
