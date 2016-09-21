@@ -24,3 +24,5 @@ RefactoringAction 1474458699673 TestBowling.java RENAME calculateScoreOfAFrame()
 RefactoringAction 1474458702278 TestBowling.java RENAME calculateScoreOfAFrame3()=>void calculateScoreOfAFrame_3_ FIELD
 RefactoringAction 1474458768297 BowlingGame.java RENAME returnFrame()=>List<Frame> getFrames() METHOD
 EditAction 1474458808405 BowlingGame.java 687 5 3 0
+CompilationAction 1474458810246 TestBowling.java
+EditAction 1474458810464 Frame.java 681 6 7 0
