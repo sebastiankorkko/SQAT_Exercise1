@@ -158,3 +158,8 @@ EditAction 1474463550492 TestBowling.java 3844 13 55 11
 UnitTestCaseAction 1474463552803 TestBowling.java OK
 UnitTestSessionAction 1474463552803 TestBowling.java OK
 EditAction 1474463719443 BowlingGame.java 1300 5 5 0
+UnitTestCaseAction 1474463721427 TestBowling.java OK
+UnitTestSessionAction 1474463721427 TestBowling.java OK
+RefactoringAction 1474463972791 TestBowling.java ADD void checkIfSpareSpareCalculatesCorrectly()/2 METHOD
+RefactoringAction 1474463981559 TestBowling.java RENAME checkIfSpareSpareCalculatesCorrectly()/2=>void checkIfLastSpareBonusCalculatesCorrectly() METHOD
+EditAction 1474464021042 BowlingGame.java 1403 5 5 0
