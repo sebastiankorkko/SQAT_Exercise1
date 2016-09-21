@@ -41,7 +41,10 @@ public class BowlingGame {
 				} else {
 					if(frames.get(i+1).isStrike()) {
 						score = score + 10 + 10 + frames.get(i+2).getFirstThrow();
-					} else {
+					} else if(i == 9) {
+						score = score + 10 + bonus.getFirstThrow() + bonus.getSecondThrow();
+					}
+					else {
 						score = score + frames.get(i).score() + frames.get(i+1).score();
 					}
 				}
