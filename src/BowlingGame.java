@@ -12,9 +12,11 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame){
-		while(frames.size() < 10) {
+	public void addFrame(Frame frame) throws BowlingException{
+		if(frames.size() < 10) {
 			frames.add(frame);
+		} else {
+			throw new BowlingException("Game already has 10 frames");
 		}
 	}
 	

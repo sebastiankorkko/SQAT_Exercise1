@@ -35,3 +35,13 @@ RefactoringAction 1474458967092 TestBowling.java RENAME addTen=>void addTenFrame
 RefactoringAction 1474458969166 TestBowling.java RENAME addTenFrames=>void addTenFrames() METHOD
 EditAction 1474459157787 BowlingGame.java 724 5 3 0
 EditAction 1474459159597 TestBowling.java 884 3 14 3
+UnitTestCaseAction 1474459162049 TestBowling.java OK
+UnitTestSessionAction 1474459162049 TestBowling.java OK
+RefactoringAction 1474459183016 TestBowling.java ADD void addTenFrames()/2 METHOD
+RefactoringAction 1474459188179 TestBowling.java RENAME addTenFrames()/2=>void addElevenFrames() METHOD
+FileOpenedAction 1474459204419 BowlingException.java 58 0 0 0
+RefactoringAction 1474459468931 BowlingException.java ADD BowlingException(String) METHOD
+RefactoringAction 1474459917727 TestBowling.java ADD ExpectedException expectedEx FIELD
+RefactoringAction 1474459922751 TestBowling.java ADD import org.junit.rules.ExpectedException IMPORT
+RefactoringAction 1474459936186 TestBowling.java ADD import org.junit.Rule IMPORT
+EditAction 1474460041191 BowlingGame.java 819 5 3 0
