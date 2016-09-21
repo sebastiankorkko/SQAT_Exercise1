@@ -127,3 +127,8 @@ RefactoringAction 1474462959523 TestBowling.java ADD void checkIfStrike()/2 METH
 RefactoringAction 1474462963657 TestBowling.java RENAME checkIfStrike()/2=>void checkIfSpare() METHOD
 EditAction 1474462979444 Frame.java 818 7 9 0
 EditAction 1474462980989 TestBowling.java 3110 10 43 8
+UnitTestCaseAction 1474462982910 TestBowling.java OK
+UnitTestSessionAction 1474462982910 TestBowling.java OK
+RefactoringAction 1474463038836 TestBowling.java ADD void checkIfSpareCalculatesCorrectly()/2 METHOD
+RefactoringAction 1474463044000 TestBowling.java RENAME checkIfSpareCalculatesCorrectly()/2=>void checkIfStrikeSpareCalculatesCorrectly() METHOD
+EditAction 1474463083858 TestBowling.java 3357 11 47 9
