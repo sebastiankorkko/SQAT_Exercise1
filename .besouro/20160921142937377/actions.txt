@@ -98,3 +98,9 @@ RefactoringAction 1474461619196 TestBowling.java ADD void checkIfStrike() METHOD
 EditAction 1474461800297 BowlingGame.java 1001 5 5 0
 EditAction 1474461801733 Frame.java 790 7 9 0
 EditAction 1474461803121 TestBowling.java 2523 7 34 5
+UnitTestCaseAction 1474461805136 TestBowling.java OK
+UnitTestSessionAction 1474461805136 TestBowling.java OK
+RefactoringAction 1474461821251 TestBowling.java ADD void checkIfStrike()/2 METHOD
+RefactoringAction 1474461826415 TestBowling.java RENAME checkIfStrike()/2=>void checkIfStrikeCalculates() METHOD
+RefactoringAction 1474461830034 TestBowling.java RENAME checkIfStrikeCalculates()=>void checkIfStrikeCalculatesCorrectly() METHOD
+EditAction 1474461861546 TestBowling.java 2718 8 37 6

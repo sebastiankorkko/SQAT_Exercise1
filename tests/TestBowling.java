@@ -94,6 +94,13 @@ public class TestBowling {
 		assertEquals("True", game.getFrames().get(0).isStrike(), true);		
 	}
 	
+	@Test
+	public void checkIfStrikeCalculatesCorrectly() throws BowlingException {
+		initGame();
+		game.getFrames().get(0).modifyFrame(10, 0);
+		assertEquals("94", game.score(), 94);		
+	}
+	
 
 
 }
