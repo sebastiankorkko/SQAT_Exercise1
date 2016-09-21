@@ -86,6 +86,14 @@ public class TestBowling {
 		initGame();
 		assertEquals("81", game.score(), 81);
 	}
+	
+	@Test
+	public void checkIfStrike() throws BowlingException {
+		initGame();
+		game.getFrames().get(0).modifyFrame(10, 0);
+		assertEquals("True", game.getFrames().get(0).isStrike(), true);		
+	}
+	
 
 
 }
