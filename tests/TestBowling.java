@@ -131,6 +131,13 @@ public class TestBowling {
 		assertEquals("112", game.score(), 112);		
 	}
 	
+	public void checkIfSpareSpareCalculatesCorrectly() throws BowlingException {
+		initGame();
+		game.getFrames().get(0).modifyFrame(8, 2);
+		game.getFrames().get(1).modifyFrame(5, 5);
+		assertEquals("98", game.score(), 98);		
+	}
+	
 
 
 }
