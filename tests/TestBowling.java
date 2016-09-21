@@ -108,6 +108,13 @@ public class TestBowling {
 		assertEquals("88", game.score(), 88);		
 	}
 	
+	@Test
+	public void checkIfSpare() throws BowlingException {
+		initGame();
+		game.getFrames().get(0).modifyFrame(1, 9);
+		assertEquals("True", game.getFrames().get(0).isSpare(), true);		
+	}
+	
 
 
 }
